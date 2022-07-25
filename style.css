@@ -1,0 +1,51 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    
+    text-decoration: none;
+    color: #fff;
+    
+    text-transform: uppercase;
+}
+
+.first-container{
+    /* margin: 30px 50px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.photography1,.photography2 {
+    width: 50%;
+    /* padding: 50px; */
+}
+.photography1{
+    margin-left: 100px;
+    padding: 100px;
+    
+}
+.photography1 h2{
+    margin-bottom: 20px;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+.photography1 p{
+    font-size: 18px;
+
+    margin-bottom: 30px;
+}
+.first-btn{
+    /* margin-top: 10px; */
+    padding: 10px 20px;
+    display: inline;
+    background-color: rgb(205, 43, 97);
+    border-radius: 0px 20px;
+    justify-content: space-between;
+}
+.first-btn i{
+    color: #fff;
+}
