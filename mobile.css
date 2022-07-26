@@ -2,7 +2,8 @@
 @media only screen and (max-width: 600px) {
     
     .first-container{
-        /* margin: 30px 50px; */
+        margin: 0px auto;
+        max-width: 600px;
         display: flex;
         flex-direction: column-reverse;
         justify-content: center;
@@ -12,7 +13,7 @@
 
 .photography1,.photography2 {
     
-    width: 100%;
+    max-width: 100%;
     
 }
 .photography1{
@@ -52,11 +53,11 @@
     justify-content: center;
 }
 .photography2 img{
-    width: 70%;
+    width: 300px;
 }
                     /* ...................... 1st Part .................... */
   .company{
-   max-width: 700px;
+   max-width: 600px;
   }
 
   .company img{
@@ -73,7 +74,7 @@
 }
 .collection-item{
     margin: 0 auto;
-    width: 600px;
+    max-width: 600px;
     background-color: gainsboro;
     
 }
