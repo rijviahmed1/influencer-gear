@@ -80,10 +80,12 @@
 .collection{
     margin: 0;
     width: 600px;
-   git init /* margin: 0px aut; */
-    display: grid;
-    grid-template-columns: auto;
-    gap: 30px;
+   margin: 0px auto;
+    /* display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px; */
+    display: flex;
+    flex-direction: column;
     
 }
 .collection-item{
