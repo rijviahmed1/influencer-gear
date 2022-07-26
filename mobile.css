@@ -2,7 +2,7 @@
 @media only screen and (max-width: 600px) {
     
     .first-container{
-        margin: 0px auto;
+        margin: 0px;
         max-width: 600px;
         display: flex;
         flex-direction: column-reverse;
@@ -66,21 +66,23 @@
 }
 /* ..................................................... */
 .collection{
-    /* margin: 10px 100px; */
+    width: 600px;
+   git init /* margin: 0px aut; */
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    gap: 40px;
+    grid-template-columns: auto;
+    gap: 30px;
     
 }
 .collection-item{
-    margin: 0 auto;
+    /* margin: 0 auto; */
+    /* display: block; */
     max-width: 600px;
     background-color: gainsboro;
     
 }
 
 .collection-item img{
-    width: 600px;
+    width: 300px;
 }
 .collection-item i{
     color: goldenrod;
