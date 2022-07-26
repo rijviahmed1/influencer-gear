@@ -6,6 +6,12 @@
         padding: 0;
         box-sizing: border-box;
     }
+    main{
+        width: 600px;
+        margin: 0 auto;
+        /* justify-content: center;
+        text-align: center; */
+    }
     .first-container{
         margin: 0px;
         max-width: 600px;
