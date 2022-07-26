@@ -22,34 +22,37 @@
     }
 
 
-.photography1,.photography2 {
-    margin: 0;
-    max-width: 100%;
+.photography2 {
+    width: 600px;
     
 }
 .photography1{
     margin: 0px;
     justify-content: center;
-   
+    width: 600px;
     display: flex;
     flex-direction: column;
     
     
 }
 .photography1 h2{
-    /* margin-bottom: 20px; */
+    /* margin: 0px auto; */
+    margin: 10px auto;
+    width: 500px;
     font-size: 30px;
     text-transform: capitalize;
     text-align: center;
+    /* overflow: hidden; */
 }
 .photography1 p{
+    width: 400px;
     font-size: 18px;
-    /* margin-bottom: 30px; */
+    margin: 10px auto;
     text-align: center;
 }
 .first-btn{
-    margin-bottom: 20px;
-    /* margin: 0px auto; */
+    /* margin-bottom: 20px; */
+    margin: 20px auto;
     width: 200px;
     padding: 15px 20px;
     /* display: flex; */
@@ -68,12 +71,12 @@
 }
                     /* ...................... 1st Part .................... */
   .company{
-    margin: 0;
+    margin: 20px auto;
    max-width: 600px;
   }
 
   .company img{
-    width: 50px;
+    width: 60px;
     padding: 0 5px;
 }
 /* ..................................................... */
@@ -91,13 +94,17 @@
 .collection-item{
     /* margin: 0 auto; */
     /* display: block; */
-    /* max-width: 600px; */
-    background-color: gainsboro;
-    
+    padding: 20px;
+    max-width: 500px;
+    background-color: rgb(245, 245, 245);
+  /* box-sizing: border-box;   */
 }
 
 .collection-item img{
-    width: 300px;
+    width: 360px;
+    margin: 0 auto;
+    border-radius: 10px;
+    
 }
 .collection-item i{
     color: goldenrod;
