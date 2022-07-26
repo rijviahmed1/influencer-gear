@@ -1,5 +1,6 @@
 /* For mobile phones: */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
+    
     .first-container{
         /* margin: 30px 50px; */
         display: flex;
@@ -7,22 +8,20 @@
         justify-content: center;
         align-items: center;
     }
-    
 
 
 .photography1,.photography2 {
-    /* display: block; */
+    
     width: 100%;
-    /* padding:0 20px; */
+    
 }
 .photography1{
-    /* padding: 0 50px; */
+    margin: 0px;
     justify-content: center;
-    /* align-items: center; */
+   
     display: flex;
     flex-direction: column;
-    /* margin-left: 100px;
-    padding: 100px; */
+    
     
 }
 .photography1 h2{
@@ -37,7 +36,8 @@
     text-align: center;
 }
 .first-btn{
-    margin: 0px auto;
+    margin-bottom: 20px;
+    /* margin: 0px auto; */
     width: 200px;
     padding: 15px 20px;
     /* display: flex; */
@@ -54,4 +54,42 @@
 .photography2 img{
     width: 70%;
 }
+                    /* ...................... 1st Part .................... */
+  .company{
+   max-width: 700px;
   }
+
+  .company img{
+    width: 30px;
+    padding: 0 5px;
+}
+/* ..................................................... */
+.collection{
+    /* margin: 10px 100px; */
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 40px;
+    
+}
+.collection-item{
+    margin: 0 auto;
+    width: 600px;
+    background-color: gainsboro;
+    
+}
+
+.collection-item img{
+    width: 600px;
+}
+.collection-item i{
+    color: goldenrod;
+}
+.review{
+    display: flex;
+}
+
+
+
+
+
+}
