@@ -73,7 +73,7 @@
   }
 
   .company img{
-    width: 30px;
+    width: 50px;
     padding: 0 5px;
 }
 /* ..................................................... */
@@ -89,7 +89,7 @@
 .collection-item{
     /* margin: 0 auto; */
     /* display: block; */
-    max-width: 600px;
+    /* max-width: 600px; */
     background-color: gainsboro;
     
 }
