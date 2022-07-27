@@ -28,6 +28,7 @@
 }
 .photography1{
     margin: 0px;
+    padding: 0 15px;
     justify-content: center;
     width: 600px;
     display: flex;
@@ -86,7 +87,7 @@
 }
 /* ..................................................... */
 .collection{
-    margin: 0;
+    
     width: 600px;
    margin: 0px auto;
     /* display: grid;
@@ -119,6 +120,7 @@
 }
 /* ........................................... */
 footer{
+    margin-top: 30px;
     padding: 20px 0;
     background-color: rgb(35, 48, 97);
     /* justify-content: center; */

@@ -19,7 +19,7 @@ a{
     text-transform: uppercase;
 }
 .first-container{
-    /* margin: 30px 50px; */
+    margin: 20px 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -39,7 +39,7 @@ a{
     text-transform: capitalize;
 }
 .photography1 p{
-    font-size: 18px;
+    font-size: 16px;
 
     margin-bottom: 30px;
 }
@@ -55,8 +55,8 @@ a{
     color: #fff;
 }
 .photography2 img{
-    width: 400px;
-   padding: 0;
+    width: 350px;
+     padding: 0;
 }
  /* ........................................... 1st Part .................... */
 .company{
@@ -122,6 +122,7 @@ footer i{
     border-radius: 50%;
 }
 footer{
+    
     padding: 20px 0;
     background-color: rgb(35, 48, 97);
     /* justify-content: center; */

@@ -29,26 +29,29 @@ a{
 }
 .photography1{
     /* margin-left: 100px; */
-    padding-right: 100px;
-    
+    /* padding-right: 100px; */
+    padding: 0 50px 0 100px;
 }
 .photography1 h2{
     margin-bottom: 20px;
-    font-size: 30px;
+    font-size: 44px;
     text-transform: capitalize;
 }
 .photography1 p{
-    font-size: 18px;
+    font-size: 25px;
 
     margin-bottom: 30px;
 }
 .first-btn{
     /* margin-top: 10px; */
-    padding: 10px 20px;
+    padding: 15px 25px;
     display: inline;
     background-color: rgb(205, 43, 97);
     border-radius: 0px 20px;
     justify-content: space-between;
+}
+.first-btn a{
+    font-size: 20px;
 }
 .first-btn i{
     color: #fff;
@@ -69,7 +72,7 @@ a{
     /* justify-content: space-around; */
 }
 .company img{
-    width: 90px;
+    width: 130px;
     padding: 0 10px;
 }
 /* ..................................................... */
@@ -85,8 +88,9 @@ a{
     margin: 0 auto;
     padding: 15px;
     width: 400px;
-    background-color: gainsboro;
-    
+    background-color: rgb(246, 246, 246);
+    border-radius: 5px;
+    box-shadow: 5px 10px 20px grey;
 }
 .collection-content h2{
    padding: 5px 0; 
