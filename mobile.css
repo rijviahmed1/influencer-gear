@@ -8,7 +8,7 @@
     }
     main{
         width: 600px;
-        margin: 0 auto;
+        margin: 20px auto;
         /* justify-content: center;
         text-align: center; */
     }
@@ -67,9 +67,14 @@
     justify-content: center;
 }
 .photography2 img{
-    width: 300px;
+    width:400px;
+    text-align: center;
+  
+    margin: 0;
+    padding-left: 0px;
 }
-                    /* ...................... 1st Part .................... */
+
+ /* ................................ 1st Part .................... */
   .company{
     margin: 20px auto;
    max-width: 600px;
@@ -112,8 +117,30 @@
 .review{
     display: flex;
 }
-
-
+/* ........................................... */
+footer{
+    padding: 20px 0;
+    background-color: rgb(35, 48, 97);
+    /* justify-content: center; */
+    text-align: center;
+}
+footer h3{
+    padding: 10px 0;
+    color: #fff;
+    font-size: 30px;
+}
+footer p{
+    padding: 10px 0;
+    color: #fff;
+}
+footer i{
+    /* margin: 0 5px; */
+    font-size: 20px;
+    padding: 10px 10px;
+    color: #fff;
+    background-color: rgba(43, 66, 98, 0.695);
+    border-radius: 50%;
+}
 
 
 
