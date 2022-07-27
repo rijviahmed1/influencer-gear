@@ -6,8 +6,9 @@
     font-family: 'Roboto', sans-serif;
     /* overflow: hidden; */
 }
+
 main{
-    width: 1700px;
+    width: 1300px;
     margin: 0 auto;
     /* justify-content: center;
     text-align: center; */
@@ -34,11 +35,11 @@ a{
 }
 .photography1 h2{
     margin-bottom: 20px;
-    font-size: 44px;
+    font-size: 34px;
     text-transform: capitalize;
 }
 .photography1 p{
-    font-size: 25px;
+    font-size: 16px;
 
     margin-bottom: 30px;
 }
@@ -51,7 +52,7 @@ a{
     justify-content: space-between;
 }
 .first-btn a{
-    font-size: 20px;
+    font-size: 16px;
 }
 .first-btn i{
     color: #fff;
@@ -60,7 +61,7 @@ a{
     text-align: center;
     margin: 0 auto;
     justify-content: center;
-    padding-left: 150px;
+    padding-left: 100px;
 }
  /* ........................................... 1st Part .................... */
 .company{
@@ -87,7 +88,7 @@ a{
 .collection-item{
     margin: 0 auto;
     padding: 15px;
-    width: 400px;
+    width: 350px;
     background-color: rgb(246, 246, 246);
     border-radius: 5px;
     box-shadow: 5px 10px 20px grey;
@@ -109,7 +110,7 @@ a{
     font-size: 15px;
  }
 .collection-item img{
-    width: 370px;
+    width: 320px;
 }
 .collection-item i{
     
@@ -118,8 +119,68 @@ a{
 .review{
     display: flex;
 }
+/* ........................................................................ */
+.progress-bar{
+    margin: 10px 40px;
+}
+.progress-bar h2{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.progress-bar ul li{
+    list-style: none;
+    padding-bottom: 50px;
+    position: relative;
+}
+.progress-bar ul li::before{
+    content: " ";
+    width: 700px;
+    height: 20px;
+    left: 150px;
+    background-color: bisque;
+    border-radius: 50px;
+    position: absolute;
+}
+.progress-bar ul li::after{
+    content: " ";
+    width: 0px;
+    height: 20px;
+    left: 150px;
+    background-color: rgb(224, 179, 125);
+    border-radius: 50px;
+    position: absolute;
+    animation: progress 4s linear ;
+    animation-fill-mode: forwards;
+}
+@keyframes progress {
+    from {width: 0px;}
+  to {width: 500px; background-color: blue;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ..................................................... */
 footer{
+    /* min-width: 850px; */
     padding: 20px 0;
     background-color: rgb(35, 48, 97);
     /* justify-content: center; */

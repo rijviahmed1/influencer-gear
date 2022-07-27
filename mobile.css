@@ -107,7 +107,7 @@
 }
 
 .collection-item img{
-    width: 360px;
+    width: 310px;
     margin: 0 auto;
     border-radius: 10px;
     
@@ -120,6 +120,9 @@
 }
 /* ........................................... */
 footer{
+    /* overflow: hidden; */
+    /* width: auto; */
+    /* max-width: 600px; */
     margin-top: 30px;
     padding: 20px 0;
     background-color: rgb(35, 48, 97);
