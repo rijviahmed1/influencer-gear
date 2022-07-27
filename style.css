@@ -61,7 +61,7 @@ a{
     text-align: center;
     margin: 0 auto;
     justify-content: center;
-    padding-left: 100px;
+    padding-left: 10px;
 }
  /* ........................................... 1st Part .................... */
 .company{
@@ -136,7 +136,7 @@ a{
     content: " ";
     width: 700px;
     height: 20px;
-    left: 150px;
+    left: 100px;
     background-color: bisque;
     border-radius: 50px;
     position: absolute;
@@ -145,7 +145,7 @@ a{
     content: " ";
     width: 0px;
     height: 20px;
-    left: 150px;
+    left: 100px;
     background-color: rgb(224, 179, 125);
     border-radius: 50px;
     position: absolute;
@@ -154,7 +154,7 @@ a{
 }
 @keyframes progress {
     from {width: 0px;}
-  to {width: 500px; background-color: blue;}
+  to {width: 500px;}
 }
 
 
