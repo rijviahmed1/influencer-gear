@@ -7,7 +7,7 @@
         box-sizing: border-box;
     }
     main{
-        width: 600px;
+        
         margin: 20px auto;
         /* justify-content: center;
         text-align: center; */
@@ -118,6 +118,50 @@
 .review{
     display: flex;
 }
+/* ........................................................................ */
+.progress-bar{
+    margin: 10px 40px;
+}
+.progress-bar h2{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.progress-bar ul li{
+    list-style: none;
+    padding-bottom: 50px;
+    position: relative;
+}
+.progress-bar ul li::before{
+    content: " ";
+    width: 400px;
+    height: 20px;
+    left: 100px;
+    background-color: bisque;
+    border-radius: 50px;
+    position: absolute;
+}
+.progress-bar ul li::after{
+    content: " ";
+    width: 0px;
+    height: 20px;
+    left: 100px;
+    background-color: rgb(224, 179, 125);
+    border-radius: 50px;
+    position: absolute;
+    animation: progress 4s linear ;
+    animation-fill-mode: forwards;
+}
+@keyframes progress {
+    from {width: 0px;}
+  to {width: 300px; background-color: blue;}
+}
+
+
+
+
+
+
+
 /* ........................................... */
 footer{
     /* overflow: hidden; */
